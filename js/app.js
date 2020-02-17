@@ -54,7 +54,7 @@ if (car.toLowerCase() === 'y' || car.toLowerCase()=== 'yes')
 } else {  alert('wronge input');}
 
 
-var born = prompt("Guess, Do I born in Jordan? ");
+var born = prompt("Guess, Did I born in Jordan? ");
 
 //console.log(born);
 
