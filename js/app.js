@@ -104,6 +104,7 @@ var colors = ['orange', 'brown', 'yellow', 'white'];
 var myColor;
 var attempts2 = 0;
 
+
 while (attempts2 < 6) {
 
     myColor = prompt('Guess a color  I hate');
@@ -123,6 +124,32 @@ while (attempts2 < 6) {
     // alert ('I hate ' + colors[0] + ' ' +  colors[1] + ' ' + colors[2] + ' ' + colors[3] + ' ')
 }
 
+
+/*while (attempts2 < 6) {
+
+    myColor = prompt('Guess a color  I hate');
+    myColor = myColor.toLocaleLowerCase();
+    for (var i=0; i<colors.length; i++)
+    {
+    if (myColor === colors[i] ) {
+        alert('your guess is true');
+        counter1++;
+        console.log(counter1);
+        var t=true;
+         }break;}
+     if (!t) {
+        attempts2++;
+        alert('your guess is false');
+        console.log(attempts1)
+
+    }
+    
+} */    //TRY WITH THIS LATER
+
+
 alert('The Colors I hate are ' + colors);
 alert( userName + ' you got ' + counter1 + ' out of 7');
 document.write('<p>' + counter1 + ' is a good score' + '<p>');
+
+
+
