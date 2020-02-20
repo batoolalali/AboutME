@@ -101,7 +101,7 @@ while (attempts1 < 4) {
     } else {
         attempts1++;
         console.log(attempts1)
-        if (mounth > 6) { alert('too high'); } else if (mounth < 6) { alert('too low'); }
+        if (mounth > 6 && mounth<12) { alert('too high'); } else if (mounth < 6 && mounth> 1) { alert('too low'); }
         else { alert('wronge input'); }
     }
 }
