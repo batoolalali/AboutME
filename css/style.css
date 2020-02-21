@@ -19,6 +19,8 @@ body
     background-size: cover;
     background-repeat: no-repeat;
     width: 90%;
+    min-width: 999px;
+
     border:2px solid #660033;
     margin: 13px auto 13px auto;
     position: relative;
@@ -58,6 +60,7 @@ header
     background-color:#660033;
     height: 130px;
     width: 100%;
+    min-width: 999px;
     margin: 0px;
     padding: 0px;
     top: 0px;
@@ -81,7 +84,7 @@ nav ul li a
 
 #icon
 {
-    float: left;
+    
     width: 50px;
     height: 50px;
 }
