@@ -47,6 +47,7 @@ footer{padding: 20px;
     background-color:#660033;
     height: 30px;
     width: 100%;
+    min-width: 999px;
     margin: 0px;
     padding: 0px;}
 
