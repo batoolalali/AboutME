@@ -130,10 +130,14 @@ function question7() {
 
     alert('The Colors I hate are ' + colors);
 }
+
+
 question7();
 
 alert(userName + ' you got ' + counter1 + ' out of 7');
 document.write('<p>' + counter1 + ' is a good score' + '<p>');
 
-
-
+function welcome(){
+alert('ewlcome ');
+}
+welcome();
