@@ -8,7 +8,7 @@ document.write('<span>' + userName + '</span>');
 
 var counter1 = 0;
 
-function question1() {
+
     var Age = prompt('Guess, Is my age more than 30? ');
 
 
@@ -19,10 +19,9 @@ function question1() {
         alert('your guess is true');
         counter1++;
     } else { alert('wronge input'); }
-}
-question1();
 
-function question2() {
+
+
     var movies = prompt('Guess, Do I love watching movies? ');
 
     if (movies.toLowerCase() === 'y' || movies.toLowerCase() === 'yes') {
@@ -31,9 +30,8 @@ function question2() {
     } else if (movies.toLowerCase() === 'n' || movies.toLowerCase() === 'no') {
         alert('your guess is false');
     } else { alert('wronge input'); }
-}
-question2();
-function question3() {
+
+
     var car = prompt('Guess, Do I have a car? ');
 
 
@@ -44,10 +42,8 @@ function question3() {
         alert('your guess is true');
         counter1++;
     } else { alert('wronge input'); }
-}
-question3();
 
-function question4() {
+
     var born = prompt('Guess, Was I born in Jordan? ');
 
     if (born.toLowerCase() === 'y' || born.toLowerCase() === 'yes') {
@@ -57,10 +53,8 @@ function question4() {
     } else if (born.toLowerCase() === 'n' || born.toLowerCase() === 'no') {
         alert('your guess is false');
     } else { alert('wronge input'); }
-}
-question4();
 
-function question5() {
+
     var pet = prompt('Guess, Do I have a pet? ');
 
 
@@ -73,10 +67,9 @@ function question5() {
         counter1++;
 
     } else { alert('wronge input'); }
-}
-question5();
 
-function question6() {
+
+
     var mounth;
     var attempts1 = 0;
 
@@ -97,10 +90,8 @@ function question6() {
     }
 
     alert('I was born in June, (the answer is 6)');
-}
-question6();
 
-function question7() {
+
     var colors = ['orange', 'brown', 'yellow', 'white'];
     var myColor;
     var attempts2 = 0;
@@ -129,10 +120,7 @@ function question7() {
 
 
     alert('The Colors I hate are ' + colors);
-}
 
-
-question7();
 
 alert(userName + ' you got ' + counter1 + ' out of 7');
 document.write('<p>' + counter1 + ' is a good score' + '<p>');
