@@ -67,18 +67,21 @@ function question4(){
 }
 question4();
 
-var pet = prompt('Guess, Do I have a pet? ');
+function question5(){
+  var pet = prompt('Guess, Do I have a pet? ');
 
 
 
-if (pet.toLowerCase() === 'y' || pet.toLowerCase() === 'yes') {
-  alert('your guess is false');
+  if (pet.toLowerCase() === 'y' || pet.toLowerCase() === 'yes') {
+    alert('your guess is false');
 
-} else if (pet.toLowerCase() === 'n' || pet.toLowerCase() === 'no') {
-  alert('your guess is true');
-  counter1++;
+  } else if (pet.toLowerCase() === 'n' || pet.toLowerCase() === 'no') {
+    alert('your guess is true');
+    counter1++;
 
-} else { alert('wronge input'); }
+  } else { alert('wronge input'); }
+}
+question5();
 
 
 
