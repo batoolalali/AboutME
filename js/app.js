@@ -53,16 +53,19 @@ function question3(){
 question3();
 
 
-var born = prompt('Guess, Was I born in Jordan? ');
+function question4(){
+  var born = prompt('Guess, Was I born in Jordan? ');
 
-if (born.toLowerCase() === 'y' || born.toLowerCase() === 'yes') {
-  alert('your guess is true');
-  counter1++;
+  if (born.toLowerCase() === 'y' || born.toLowerCase() === 'yes') {
+    alert('your guess is true');
+    counter1++;
 
-} else if (born.toLowerCase() === 'n' || born.toLowerCase() === 'no') {
-  alert('your guess is false');
-} else { alert('wronge input'); }
+  } else if (born.toLowerCase() === 'n' || born.toLowerCase() === 'no') {
+    alert('your guess is false');
+  } else { alert('wronge input'); }
 
+}
+question4();
 
 var pet = prompt('Guess, Do I have a pet? ');
 
