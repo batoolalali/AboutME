@@ -7,7 +7,7 @@ for question 6 you have 4 attempts to hit the correct answer.
 for question 7 you have 6 attempts to hit the correct answer but there are more than one correct answer.
 
 
-Esraa abdelqader is driver.
-Batool Al-Ali is navigator.
+Jamal Eldeen Wari is driver
+Batool Al-Ali is navigator
 
 we worked together on the code to move all questions into functions.
