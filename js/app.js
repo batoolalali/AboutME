@@ -85,56 +85,63 @@ question5();
 
 
 
-var mounth;
-var attempts1 = 0;
+function question6(){
+  var mounth;
+  var attempts1 = 0;
 
-while (attempts1 < 4) {
+  while (attempts1 < 4) {
 
-  mounth = prompt('Guess, when was I born? (which mounth)');
-  if (mounth == 6) {
-    alert('your guess is true');
-    counter1++;
-    break;
+    mounth = prompt('Guess, when was I born? (which mounth)');
+    if (mounth == 6) {
+      alert('your guess is true');
+      counter1++;
+      break;
 
-  } else {
-    attempts1++;
+    } else {
+      attempts1++;
 
-    if (mounth > 6 && mounth < 12) { alert('too high'); } else if (mounth < 6 && mounth > 1) { alert('too low'); }
-    else { alert('wronge input'); }
-  }
-}
-
-alert('I was born in June, (the answer is 6)');
-
-
-var colors = ['orange', 'brown', 'yellow', 'white'];
-var myColor;
-var attempts2 = 0;
-
-
-while (attempts2 < 6) {
-
-  myColor = prompt('Guess a color  I hate');
-  myColor = myColor.toLocaleLowerCase();
-  if (myColor === colors[0] || myColor === colors[1] || myColor === colors[2] || myColor === colors[3]) {
-    alert('your guess is true');
-    counter1++;
-
-    break;
-
-  } else {
-    attempts2++;
-    alert('your guess is false');
-
-
+      if (mounth > 6 && mounth < 12) { alert('too high'); } else if (mounth < 6 && mounth > 1) { alert('too low'); }
+      else { alert('wronge input'); }
+    }
   }
 
+  alert('I was born in June, (the answer is 6)');
 }
+question6();
+
+
+function question7(){
+  var colors = ['orange', 'brown', 'yellow', 'white'];
+  var myColor;
+  var attempts2 = 0;
+
+
+  while (attempts2 < 6) {
+
+    myColor = prompt('Guess a color  I hate');
+    myColor = myColor.toLocaleLowerCase();
+    if (myColor === colors[0] || myColor === colors[1] || myColor === colors[2] || myColor === colors[3]) {
+      alert('your guess is true');
+      counter1++;
+
+      break;
+
+    } else {
+      attempts2++;
+      alert('your guess is false');
+
+
+    }
+
+  }
 
 
 
 
-alert('The Colors I hate are ' + colors);
+
+  alert('The Colors I hate are ' + colors);
+}
+question7();
 
 
 alert(userName + ' you got ' + counter1 + ' out of 7');
